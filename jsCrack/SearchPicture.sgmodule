@@ -1,0 +1,8 @@
+#!name=SearchPicture
+#!desc=解锁Premium
+
+[Script]
+SearchPicture = type=http-response,pattern=^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yqc007/QuantumultX/master/SearchPictureCrack.js
+
+[MITM]
+hostname = %APPEND% wallpaper.soutushenqi.com
